@@ -1,0 +1,145 @@
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.boxheader{
+    height: 55rem ;
+    /* nao precisa mais, colocado no global
+    width: 100%;  
+    margin: 0% 0%;
+    overflow: hidden; */
+  
+
+}
+a{
+    margin: 0% 1%;
+    text-align: center;
+    color: white;
+    padding: 0.4rem;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 10rem;
+    transition:all .2s ease-out;
+}
+a:hover{
+    border-radius: 10rem; 
+    border: solid white 1px; 
+} 
+
+header{
+    position: fixed;
+    background-color: #0f224a;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 2rem;
+    z-index: 10;
+}
+ .midia{
+    width: 95rem;
+    height: 50rem ;
+    margin: auto;
+    display: grid;
+    align-items:center;
+    padding: 5rem 5rem;
+
+} 
+
+.vd{
+
+    display: grid;
+    align-items: center;
+    width: 99%;
+    height:100%;
+    
+    
+}
+video{
+    display: grid;
+    align-items:center;
+    width: 100%;
+    height:100%;
+    border: solid white 1rem;
+
+}
+
+#PokemonLogo{
+    width:4.7rem;
+    height:3rem ;
+}
+
+.container div{
+    width: 100%;
+    text-align: center; 
+    max-width: 1121px;
+    color: white;  
+    display: flex;
+}
+.container{
+    background: linear-gradient(150deg, #07ABEA 0%, #603F96 100%); 
+    background-attachment: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 190px 1fr 320px;  
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+}
+    
+.container .texto{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.texto{
+    padding: 0rem 0rem;
+    /* margin-right: 50% 50%; */
+    display: flex;
+    align-items: center;
+}
+.interno{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+
+#botao{
+    border-radius: 10rem; 
+    border: solid white 1px
+
+}
+
+#logo{
+    width:13rem;
+    height: 15rem;
+}
+
+#gordao{
+    width: 20rem;
+    height: 15rem;
+    padding-left:3rem ;
+}
+@media screen and (min-width: 380px) {
+    .fundos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .fundo {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .fundo{margin: 0px;
+
+    }
+}
