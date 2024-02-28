@@ -10,39 +10,12 @@ body{
     width: 100%;  
     margin: 0% 0%;
     overflow: hidden; */
-  
 
 }
-a{
-    margin: 0% 1%;
-    text-align: center;
-    color: white;
-    padding: 0.4rem;
-    height: 2rem;
-    width: 8rem;
-    border-radius: 10rem;
-    transition:all .2s ease-out;
-}
-a:hover{
-    border-radius: 10rem; 
-    border: solid white 1px; 
-} 
 
-header{
-    position: fixed;
-    background-color: #0f224a;
-    height: 5rem;
-    width: 100%;
-    display: flex;
-    padding: 0.5rem 2rem;
-    z-index: 10;
-}
+
+
  .midia{
-    width: 95rem;
-    height: 50rem ;
-    margin: auto;
-    display: grid;
-    align-items:center;
     padding: 5rem 5rem;
 
 } 
@@ -127,19 +100,22 @@ video{
     padding-left:3rem ;
 }
 @media screen and (min-width: 380px) {
-    .fundos {
-        grid-template-columns: 1fr 1fr;
+    .midia {
+        width:40rem;
     }
 }
 
 @media screen and (min-width: 576px) {
-    .fundo {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+   .midia{
+    width: 60rem;
+   }
+    
 }
 
 @media screen and (min-width: 992px) {
-    .fundo{margin: 0px;
+    .midia{
+        width: 93rem;
+          padding: 5rem 5rem;
 
     }
 }
